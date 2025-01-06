@@ -1,43 +1,26 @@
-# Auto Add Python to PATH
 
-A simple batch script to add Python installation directories to the PATH environment variable for Windows users.
+# Fix Python Path Script
 
-## Problem
+This script fixes the common "Python is not recognized as an internal or external command" error on Windows.  
+It checks if Python is installed, adds it to the system PATH if missing, or downloads and installs the latest version if not installed.
 
-When running Python commands in Command Prompt, you might encounter the following error:
-
+## Problem Example:
 ![Error Screenshot](https://github.com/user-attachments/assets/40b82bb6-9fdd-4d3c-914d-f5a471eb2fed)
 
-This happens when Python's executable is not added to your system's PATH environment variable.
+## Features:
+- Ensures Python is accessible from the command line.
+- Automatically adds Python to the PATH.
+- Downloads and installs the latest version if Python isn't installed.
 
-## Solution
+## How to Use:
+1. Clone the repository or download the script.
+2. Run the script as Administrator.
+3. Follow the on-screen instructions.
 
-This script automates the process of appending Python's installation and `Scripts` directories to the PATH environment variable.
+## Notes:
+- The script modifies the PATH environment variable.
+- Requires an internet connection to download Python if needed.
 
-## Features
+---
 
-- Works for Python installations located in `C:\Users\<username>\AppData\Local\Programs\Python\Python<version>`.
-- Adds both the Python installation directory and `Scripts` directory to PATH.
-- Makes changes to the current user's PATH without affecting other users.
-
-## Usage
-
-1. Download the `AddPythonToPath.bat` file from this repository.
-2. Open the file in a text editor to confirm or adjust the Python directory paths if needed.
-3. Run the script by double-clicking or via Command Prompt:
-   ```cmd
-   AddPythonToPath.bat
-   ```
-4. Close and reopen Command Prompt to apply the changes.
-
-## Verify Installation
-
-After running the script, verify that Python is accessible by typing:
-
-```cmd
-python --version
-```
-
-## License
-
-This script is released under the MIT License. See [LICENSE](LICENSE) for details.
+Feel free to contribute or report issues!
