@@ -12,7 +12,7 @@ It checks if Python is installed, adds it to the system PATH if missing, or down
 - Downloads and installs the latest version if Python isn't installed.
 
 ## How to Use:
-1. Clone the repository or download the script.
+1. Clone the repository or download the bat.
 2. Run the script as Administrator.
 3. Follow the on-screen instructions.
 
