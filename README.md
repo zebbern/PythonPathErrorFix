@@ -1,4 +1,3 @@
-
 # Fix Python Path Script
 
 This script fixes the common "Python is not recognized as an internal or external command" error on Windows.  
