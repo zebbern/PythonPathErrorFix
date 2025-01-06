@@ -1,4 +1,4 @@
-# Add Python to PATH
+# Auto Add Python to PATH
 
 A simple batch script to add Python installation directories to the PATH environment variable for Windows users.
 
