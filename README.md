@@ -1,7 +1,6 @@
-# Fix Python Path Script
+# Fix Python
 
-This script fixes the common "Python is not recognized as an internal or external command" error on Windows.  
-It checks if Python is installed, adds it to the system PATH if missing, or downloads and installs the latest version if not installed.
+This script fixes common python problems simply run and it will try to fix the problem.
 
 ## Problem Example:
 ![Error Screenshot](https://github.com/user-attachments/assets/40b82bb6-9fdd-4d3c-914d-f5a471eb2fed)
